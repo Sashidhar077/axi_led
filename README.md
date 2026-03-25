@@ -116,6 +116,7 @@ gtkwave axi_led.vcd
 
 ## 📊 Waveform
 
+![alt text](results/output_waveform.png)
 After simulation, open `axi_led.vcd` in GTKWave and add these signals to the wave view:
 
 | Signal              | What to look for                              |
