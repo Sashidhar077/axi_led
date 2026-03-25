@@ -17,11 +17,9 @@ axi_led/
 └── README.md
 ```
 
-> **Note:** `axi_led.vcd` and `axi_led_sim` are generated files. You may add them to `.gitignore` if preferred.
 
----
 
-## 🔧 Design Overview
+##  Design Overview
 
 ### Module: `axi4_lite_slave`
 
@@ -71,7 +69,7 @@ assign led = reg0[0];
 
 ---
 
-## 🧪 Testbench
+##  Testbench
 
 The testbench (`tb`) is included in `axi_led.v` and runs two back-to-back AXI write transactions with self-checking assertions:
 
