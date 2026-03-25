@@ -1,0 +1,170 @@
+$date
+	Wed Mar 25 14:53:11 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb $end
+$var wire 1 ! led $end
+$var wire 1 " WREADY $end
+$var wire 1 # RVALID $end
+$var wire 32 $ RDATA [31:0] $end
+$var wire 1 % BVALID $end
+$var wire 1 & AWREADY $end
+$var wire 1 ' ARREADY $end
+$var reg 4 ( ARADDR [3:0] $end
+$var reg 1 ) ARVALID $end
+$var reg 4 * AWADDR [3:0] $end
+$var reg 1 + AWVALID $end
+$var reg 1 , BREADY $end
+$var reg 1 - RREADY $end
+$var reg 32 . WDATA [31:0] $end
+$var reg 1 / WVALID $end
+$var reg 1 0 clk $end
+$var reg 1 1 rst_n $end
+$scope module dut $end
+$var wire 4 2 ARADDR [3:0] $end
+$var wire 1 ) ARVALID $end
+$var wire 4 3 AWADDR [3:0] $end
+$var wire 1 + AWVALID $end
+$var wire 1 , BREADY $end
+$var wire 1 - RREADY $end
+$var wire 32 4 WDATA [31:0] $end
+$var wire 1 / WVALID $end
+$var wire 1 0 clk $end
+$var wire 1 1 rst_n $end
+$var wire 1 ! led $end
+$var reg 1 ' ARREADY $end
+$var reg 1 & AWREADY $end
+$var reg 1 % BVALID $end
+$var reg 32 5 RDATA [31:0] $end
+$var reg 1 # RVALID $end
+$var reg 1 " WREADY $end
+$var reg 32 6 reg0 [31:0] $end
+$var reg 32 7 reg1 [31:0] $end
+$var reg 32 8 reg2 [31:0] $end
+$var reg 32 9 reg3 [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 9
+b0 8
+b0 7
+b0 6
+b0 5
+bx 4
+bx 3
+bx 2
+01
+00
+0/
+bx .
+0-
+0,
+0+
+bx *
+0)
+bx (
+0'
+0&
+0%
+b0 $
+0#
+0"
+0!
+$end
+#5
+10
+#10
+00
+#15
+10
+#20
+00
+11
+#25
+10
+#30
+00
+1/
+1+
+b1 .
+b1 4
+b0 *
+b0 3
+#35
+1!
+1%
+b1 6
+1"
+1&
+10
+#40
+00
+1,
+0/
+0+
+#45
+0%
+0"
+0&
+10
+#50
+00
+0,
+#55
+10
+#60
+00
+#65
+10
+#70
+00
+#75
+10
+#80
+00
+1/
+1+
+b0 .
+b0 4
+#85
+0!
+1%
+b0 6
+1"
+1&
+10
+#90
+00
+1,
+0/
+0+
+#95
+0%
+0"
+0&
+10
+#100
+00
+0,
+#105
+10
+#110
+00
+#115
+10
+#120
+00
+#125
+10
+#130
+00
